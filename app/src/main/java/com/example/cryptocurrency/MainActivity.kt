@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d("Hello" , "Hello world")
 		Log.d("Hello,mmd" , "Hello my name is mmd")
+        Log.d("Hello,Hossor" , "Hello my name is Hossor")
+
 
     }
 }
