@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1D1A">
+
+    <ImageView
+        android:id="@+id/slide_im"
+        android:layout_width="249dp"
+        android:layout_height="274dp"
+        android:layout_marginTop="32dp"
+        android:foregroundGravity="center"
+        android:padding="20dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:gravity="center|center_horizontal"
+        android:text="TextView"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slide_im" />
+
+    <TextView
+        android:id="@+id/slide_descreption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginEnd="190dp"
+        android:text="دسترسی به بروز ترین نمودارها و تحلیل آن ها"
+        android:layout_marginRight="190dp"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slide_heading" />
+</androidx.constraintlayout.widget.ConstraintLayout>
