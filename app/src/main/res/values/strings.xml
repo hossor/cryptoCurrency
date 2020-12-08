@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">cryptoCurrency</string>
+    <string name="graph_des">دسترسی به بروزترین نمودار جهت تحلیل و بررسی آن</string>
+    <string name="currancy_des">بروزترین قیمت های تمام ارز های موجود در جهان</string>
+    <string name="gold_des">بروزترین قیمت ها برای طلا و تمام سکه ها</string>
+    <string name="crypto_cr_des">دسترسی به قیمت رمزارز و قیمت شاخص بورس</string>
+    <string name="graph_he">نمودار</string>
+    <string name="currancy_he">ارزها</string>
+    <string name="gold_he">طلا و سکه</string>
+    <string name="crypto_cr_he">رمزارز و بورس</string>
 </resources>
