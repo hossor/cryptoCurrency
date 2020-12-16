@@ -38,6 +38,6 @@ class splashActivity : AppCompatActivity() {
 
             }
 
-        } , 5000)
+        } , 1)
         }
 }
